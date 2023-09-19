@@ -3,8 +3,8 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split("94774071805,")
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
+global.owner = process.env.OWNER_NUMBER.split("15194881878,")
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://jonoliu676:jonoliu676@cluster0.nfnypnn.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
 global.blockJids = process.env.BLOCK_JID ||'120363165030810524@g.us' ;
@@ -12,7 +12,7 @@ global.allowJids = process.env.ALLOW_JID ||'120363165030810524@g.us' ;
 global.github = 'https://github.com/kaveesha-sithum/Dark-Nero-Bot-'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94774071805'
+global.sudo = process.env.SUDO || '15194881878'
 global.devs = '94774071805';
 global.website = 'https://kaveeshasithum.netlify.app/' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.ibb.co/zrvByTb/IMG-20230609-WA0083.jpg'
